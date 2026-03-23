@@ -1,0 +1,1 @@
+I am seeking an opportunity to utilize my analytical background, technical expertise, and graduate-level training to support data-informed decision-making and continuous improvement initiatives. I am confident that my methodical problem-solving approach and my ability to deliver measurable results will be valuable to your team.
