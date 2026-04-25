@@ -1,23 +1,47 @@
+/* ── Reset & Base ─────────────────────────────── */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', system-ui, sans-serif;
     margin: 0;
-    background-color: #f4f4f4;
+    padding: 0;
+    background-color: #f0ece8;
+    color: #2c2c2c;
+    line-height: 1.7;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
 }
 
+/* ── Header ───────────────────────────────────── */
 header {
-    background: #222;
-    color: white;
-    padding: 20px;
+    background: #1a1a2e;
+    color: #f0ece8;
+    padding: 32px 40px;
     text-align: center;
+    letter-spacing: 0.03em;
+    border-bottom: 3px solid #4a4a8a;
 }
 
+/* ── Section ──────────────────────────────────── */
 section {
-    padding: 20px;
-    margin: 10px;
-    background: white;
-    border-radius: 5px;
+    padding: 28px 32px;
+    margin: 16px auto;
+    max-width: 860px;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #e0dbd5;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
+/* ── Headings ─────────────────────────────────── */
 h2 {
-    color: #333;
+    color: #1a1a2e;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 0;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #f0ece8;
 }
